@@ -39,7 +39,7 @@ header p{
 
 header a{
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -64,6 +64,13 @@ section.no-image{
     background-color: white;
 }
 
+section.image > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 3vh;
+
+}
+
 section#image1{
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
@@ -81,6 +88,7 @@ footer{
     color: white;
     padding: 3vh;
 }
+
 footer a{
     text-align: center;
     color: white;
