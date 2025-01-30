@@ -45,15 +45,33 @@ header a{
 
 section{
     font-family: var(--fonte3);
-    padding: 40px;
+    padding: 10vh 10vh;
+    padding-left: 40px;
     font-size: 4vh;
     line-height: 9vh;
     font-weight: bold;
     padding-bottom: 12vh;
 }
 
+section.image{
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 section.no-image{
     background-color: white;
+}
+
+section#image1{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#image2{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
 }
 
 footer{
