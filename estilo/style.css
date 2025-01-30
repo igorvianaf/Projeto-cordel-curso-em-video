@@ -16,19 +16,23 @@
     font-size: 1em;
 }
 
+body{
+    background-color: black;
+}
 
 header{
-    background-color: black;
     color: white;
     padding: 50px;
     text-align: center;
 }
+
 header h1{
-    font: var(--fonte2);
+    font-family: var(--fonte2);
     font-size: 10vw;
     font-weight: bold;
     padding-bottom: 15px;
 }
+
 header p{
     font-size: 2vw;
 }
@@ -39,4 +43,27 @@ header a{
     font-weight: bold;
 }
 
+section{
+    font-family: var(--fonte3);
+    padding: 40px;
+    font-size: 4vh;
+    line-height: 9vh;
+    font-weight: bold;
+    padding-bottom: 12vh;
+}
 
+section.no-image{
+    background-color: white;
+}
+
+footer{
+    font-family: var(--fonte2);
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+    padding: 3vh;
+}
+footer a{
+    text-align: center;
+    color: white;
+}
