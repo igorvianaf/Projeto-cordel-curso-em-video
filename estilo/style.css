@@ -53,11 +53,15 @@ section{
     font-family: var(--fonte3);
     padding: 10vh 10vh;
     padding-left: 40px;
-    font-size: 4vw;
+    font-size: 2em;
     line-height: 2em;
     font-weight: bold;
     padding-bottom: 12vh;
     text-align: justify;
+}
+
+section p{
+    padding-bottom: 20px;
 }
 
 section.image{
